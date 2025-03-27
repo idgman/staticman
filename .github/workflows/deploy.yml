@@ -35,7 +35,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "staticman"
-          entrypoint: "index.js"
+          entrypoint: "server.js"
           root: ""
           
           
